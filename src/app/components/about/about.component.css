@@ -1,35 +1,58 @@
 
 /* about.component.css or about.component.scss */
+/* image-text.component.css or image-text.component.scss */
+/* about.component.css or about.component.scss */
 .about {
-    text-align: center; /* Center-align the content horizontally */
-    background-color: #f7f7f7;
-    padding: 50px 0;
-  }
+  text-align: center; /* Center-align the content horizontally */
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.about-container {
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center-align the container horizontally */
+  display: flex; /* Use flexbox to create a layout */
+  align-items: center; /* Center-align the items vertically within the container */
+  justify-content: space-between; /* Space items evenly horizontally */
+}
+
+.image-container {
+  flex: 1; /* Make the image container take up one-third of the available space */
+  max-width: 100%; /* Ensure the image container doesn't exceed its parent's width */
+  padding: 0 20px; /* Add spacing around the image */
+}
+
+.image-container img {
+  max-width: 100%; /* Make the image responsive within its container */
+  height: auto;
+  display: block;
+}
+
+.about-content {
+  flex: 2; /* Make the content container take up two-thirds of the available space */
+  text-align: left; /* Reset text alignment for content */
+}
+
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 16px;
+  margin-bottom: 20px; /* Add spacing between paragraphs */
+}
+
+.about ul {
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.about li {
+  font-size: 16px;
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
   
-  .about-content {
-    max-width: 800px;
-    margin: 0 auto; /* Center-align the content horizontally */
-    text-align: left; /* Reset text alignment for content */
-  }
-  
-  .about h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .about p {
-    font-size: 16px;
-    margin-bottom: 20px; /* Add spacing between paragraphs */
-  }
-  
-  .about ul {
-    list-style-type: disc; 
-    text-align: left; 
-    margin-left: 30px; 
-  }
-  
-  .about li {
-    font-size: 16px;
-    margin-bottom: 10px; /* Add spacing between list items */
-  }
   

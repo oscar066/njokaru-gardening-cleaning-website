@@ -1,1 +1,20 @@
-<p>services works!</p>
+<section class="services">
+    <div class="intro">
+      <h2>Our Services</h2>
+      <p>Discover our wide range of gardening and cleaning services to meet your needs.</p>
+    </div>
+    
+    <!-- Horizontal Container for Service Cards -->
+    <div class="service-container-horizontal">
+      <div class="service-container" *ngFor="let service of servicesData">
+        <img [src]="service.imageUrl" alt="{{ service.title }}" />
+        <div class="service-info">
+          <h3>{{ service.title }}</h3>
+          <p>{{ service.description }}</p>
+          <button (click)="showMore(service)">Read More</button>
+        </div>
+      </div>
+    </div>
+</section>
+  
+  

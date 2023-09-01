@@ -1,1 +1,59 @@
 
+/* services.component.css or services.component.scss */
+ .services {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .intro {
+    margin-bottom: 30px;
+  }
+  
+  /* Horizontal container for service cards */
+  .service-container-horizontal {
+    display: flex;
+    flex-wrap: wrap; /* Allow containers to wrap to the next line if there's not enough space */
+    justify-content: center; /* Center-align the containers horizontally */
+  }
+  
+  /* Individual service container */
+  .service-container {
+    border: 1px solid #e0e0e0; /* Add a border to each container */
+    border-radius: 5px;
+    margin: 10px; /* Add spacing between containers */
+    max-width: 300px; /* Limit the maximum width of each container */
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .service-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .service-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .service-info button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .service-info button:hover {
+    background-color: #0056b3;
+  }
+  
