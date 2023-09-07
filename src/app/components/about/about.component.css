@@ -24,8 +24,9 @@
 
 .image-container img {
   max-width: 100%; /* Make the image responsive within its container */
-  height: auto;
+  height: 400px; /* Set a fixed height for the image */
   display: block;
+  margin: 0 auto; /* Center-align the image horizontally */
 }
 
 .about-content {

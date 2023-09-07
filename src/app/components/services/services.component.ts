@@ -10,32 +10,32 @@ export class ServicesComponent implements OnInit {
     {
       title: 'Garden Design',
       description: 'Transform your outdoor space with our expert garden design services.',
-      imageUrl: 'assets/gardens.jpg',
+      imageUrl: 'assets/garden.jpg',
     },
     {
       title: 'Cleaning Services',
       description: 'Keep your home spotless with our professional cleaning services.',
-      imageUrl: 'assets/cleaning.jpg',
+      imageUrl: 'assets/garden.jpg',
     },
     {
       title: 'Lawn Care',
       description: 'Maintain a lush, green lawn with our specialized lawn care services.',
-      imageUrl: 'assets/lawn-care.jpg',
+      imageUrl: 'assets/garden.jpg',
     },
     {
       title: 'Interior Cleaning',
       description: 'Revive the interior of your home with our interior cleaning solutions.',
-      imageUrl: 'assets/interior-cleaning.jpg',
+      imageUrl: 'assets/garden.jpg',
     },
     { 
       title: 'Pest Control', 
       description: 'Get rid of pests with our pest control services.', 
-      imageUrl: 'assets/pest-control.jpg' 
+      imageUrl: 'assets/garden.jpg' 
     },
     { 
       title: 'Snow Removal',
       description: 'Keep your driveway and walkways clear with our snow removal services.',
-      imageUrl: 'assets/snow-removal.jpg'  
+      imageUrl: 'assets/garden.jpg'  
     },
   ];
 

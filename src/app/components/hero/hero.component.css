@@ -1,7 +1,7 @@
 
 /* hero.component.css or hero.component.scss */
 .hero {
-  background-image: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29');
+  background-image: url('src/assets/flowers.jpg');
   background-size: cover;
   color: white;
   text-align: center;
