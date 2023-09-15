@@ -1,0 +1,5 @@
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #064722; /* Change the background color on hover */
+    color: #fff; 
+}

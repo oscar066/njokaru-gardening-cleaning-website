@@ -1,0 +1,5 @@
+/* Define a CSS class to set the image size */
+.image-size {
+    width: auto; 
+    height: 300px; 
+}
